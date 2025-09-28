@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{caption}
+
+% Set margins for wider tables
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+
+\section*{New Relational Algebra Query Results}
+
+\subsection*{Query 1: Full Names of Attendees who bought a "VIP" ticket for "Tech Summit"}
+
+\noindent \textbf{Query:} $\pi_{\text{FirstName, LastName}} \left( \sigma_{\text{Type='VIP' } \land \text{EventName='Tech Summit'}} \left( \text{Attendees} \bowtie \text{Tickets} \bowtie \text{Events} \right) \right)$
+
+\captionof{table}{Result 1: Attendees for VIP Tickets at Tech Summit}
+\begin{center}
+\begin{tabular}{cc}
+\toprule
+\textbf{FirstName} & \textbf{LastName} \\
+\midrule
+Jose & Ramirez \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\hrule
+
+\subsection*{Query 2: Names of Venues that hosted an event where the ticket payment method was "GCash"}
+
+\noindent \textbf{Query:} $\pi_{\text{VenueName}} \left( \sigma_{\text{Method='GCash'}} \left( \text{Venues} \bowtie \text{Events} \bowtie \text{Tickets} \bowtie \text{Payments} \right) \right)$
+
+\captionof{table}{Result 2: Venues with GCash Payments}
+\begin{center}
+\begin{tabular}{c}
+\toprule
+\textbf{VenueName} \\
+\midrule
+CDO Convention Center \\
+Limketkai Auditorium \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\hrule
+
+\subsection*{Query 3: Contact Info of Individual Organizers who hosted an event with a Base Price of 500}
+
+\noindent \textbf{Query:} $\pi_{\text{Email}} \left( \sigma_{\text{BasePrice=1000}} \left( \text{Attendees} \bowtie \text{Tickets} \bowtie \text{TicketBasePrices} \bowtie \text{Events} \bowtie \text{IndividualOrganizers} \right) \right)$
+
+\captionof{table}{Result 4: Attendees' Email (VIP Ticket, Individual Host)}
+\begin{center}
+\begin{tabular}{c}
+\toprule
+\textbf{Email} \\
+\midrule
+jose@gmail.com \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\end{document}
