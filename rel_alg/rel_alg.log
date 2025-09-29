@@ -1,0 +1,944 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.20)  29 SEP 2025 18:50
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex
+(c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-11-02>
+(C:\Users\jefel\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(C:\Users\jefel\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (C:\Users\jefel\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\jefel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:\Users\jefel\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\jefel\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count270
+\Gm@cntv=\count271
+\c@Gm@tempcnt=\count272
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks18
+ (C:\Users\jefel\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\jefel\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen150
+\lightrulewidth=\dimen151
+\cmidrulewidth=\dimen152
+\belowrulesep=\dimen153
+\belowbottomsep=\dimen154
+\aboverulesep=\dimen155
+\abovetopsep=\dimen156
+\cmidrulesep=\dimen157
+\cmidrulekern=\dimen158
+\defaultaddspace=\dimen159
+\@cmidla=\count273
+\@cmidlb=\count274
+\@aboverulesep=\dimen160
+\@belowrulesep=\dimen161
+\@thisruleclass=\count275
+\@lastruleclass=\count276
+\@thisrulewidth=\dimen162
+) (C:\Users\jefel\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\jefel\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen163
+\captionmargin=\dimen164
+\caption@leftmargin=\dimen165
+\caption@rightmargin=\dimen166
+\caption@width=\dimen167
+\caption@indent=\dimen168
+\caption@parindent=\dimen169
+\caption@hangindent=\dimen170
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count277
+\c@continuedfloat=\count278
+) (C:\Users\jefel\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count279
+\l__pdf_internal_box=\box52
+)
+No file rel_alg.aux.
+\openout1 = `rel_alg.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 15.
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:15: Undefined control sequence.
+l.15 \noindent \textbf{Query:} $\pi_{\text
+                                          {FirstName, LastName}} \left( \sig...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:15: Undefined control sequence.
+l.15 ...FirstName, LastName}} \left( \sigma_{\text
+                                                  {Type='VIP' } \land \text{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:15: Undefined control sequence.
+l.15 ...ft( \sigma_{\text{Type='VIP' } \land \text
+                                                  {EventName='Tech Summit'}}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:15: Undefined control sequence.
+l.15 ...ext{EventName='Tech Summit'}} \left( \text
+                                                  {Attendees} \bowtie \text{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:15: Undefined control sequence.
+l.15 ...t'}} \left( \text{Attendees} \bowtie \text
+                                                  {Tickets} \bowtie \text{Ev...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:15: Undefined control sequence.
+l.15 ...dees} \bowtie \text{Tickets} \bowtie \text
+                                                  {Events} \right) \right)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package caption Warning: \setcaptiontype
+(caption)                outside box or environment on input line 17.
+See the caption package documentation for explanation.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:32: Undefined control sequence.
+l.32 \noindent \textbf{Query:} $\pi_{\text
+                                          {VenueName}} \left( \sigma_{\text{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:32: Undefined control sequence.
+l.32 ...pi_{\text{VenueName}} \left( \sigma_{\text
+                                                  {Method='GCash'}} \left( \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:32: Undefined control sequence.
+l.32 ...sigma_{\text{Method='GCash'}} \left( \text
+                                                  {Venues} \bowtie \text{Eve...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:32: Undefined control sequence.
+l.32 ...Cash'}} \left( \text{Venues} \bowtie \text
+                                                  {Events} \bowtie \text{Tic...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:32: Undefined control sequence.
+l.32 ...enues} \bowtie \text{Events} \bowtie \text
+                                                  {Tickets} \bowtie \text{Pa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:32: Undefined control sequence.
+l.32 ...ents} \bowtie \text{Tickets} \bowtie \text
+                                                  {Payments} \right) \right)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:50: Undefined control sequence.
+l.50 \noindent \textbf{Query:} $\pi_{\text
+                                          {ContactInfo}} \left( \sigma_{\tex...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:50: Undefined control sequence.
+l.50 ..._{\text{ContactInfo}} \left( \sigma_{\text
+                                                  {BasePrice=500}} \left( \t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:50: Undefined control sequence.
+l.50 ...\sigma_{\text{BasePrice=500}} \left( \text
+                                                  {IndividualOrganizers} \bo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:50: Undefined control sequence.
+l.50 ... \text{IndividualOrganizers} \bowtie \text
+                                                  {Organizers} \bowtie \text...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:50: Undefined control sequence.
+l.50 ...s} \bowtie \text{Organizers} \bowtie \text
+                                                  {Events} \bowtie \text{Tic...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:50: Undefined control sequence.
+l.50 ...izers} \bowtie \text{Events} \bowtie \text
+                                                  {TicketTypePricing} \right...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (31.08531pt too wide) in paragraph at lines 50--51
+\OT1/cmr/bx/n/10 Query: $\OML/cmm/m/it/10 ^^Y[] []$ 
+ []
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:68: Undefined control sequence.
+l.68 \noindent \textbf{Query:} $\pi_{\text
+                                          {Email}} \left( \sigma_{\text{Base...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:68: Undefined control sequence.
+l.68 ...} $\pi_{\text{Email}} \left( \sigma_{\text
+                                                  {BasePrice=1000}} \left( \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:68: Undefined control sequence.
+l.68 ...sigma_{\text{BasePrice=1000}} \left( \text
+                                                  {Attendees} \bowtie \text{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:68: Undefined control sequence.
+l.68 ...00}} \left( \text{Attendees} \bowtie \text
+                                                  {Tickets} \bowtie \text{Ti...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:68: Undefined control sequence.
+l.68 ...dees} \bowtie \text{Tickets} \bowtie \text
+                                                  {TicketTypePricing} \bowti...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:68: Undefined control sequence.
+l.68 ...tie \text{TicketTypePricing} \bowtie \text
+                                                  {Events} \bowtie \text{Ind...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:68: Undefined control sequence.
+l.68 ...icing} \bowtie \text{Events} \bowtie \text
+                                                  {IndividualOrganizers} \ri...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (51.60252pt too wide) in paragraph at lines 68--69
+\OT1/cmr/bx/n/10 Query: $\OML/cmm/m/it/10 ^^Y[] []$ 
+ []
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:85: Undefined control sequence.
+l.85 \noindent \textbf{Query:} $\pi_{\text
+                                          {VenueName}} \left( \sigma_{\text{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:85: Undefined control sequence.
+l.85 ...pi_{\text{VenueName}} \left( \sigma_{\text
+                                                  {VenueCapacity} > 4000} (\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:85: Undefined control sequence.
+l.85 ...sigma_{\text{VenueCapacity} > 4000} (\text
+                                                  {Venues}) \right)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:102: Undefined control sequence.
+l.102 \noindent \textbf{Query:} $\pi_{\text
+                                           {TicketID}} \left( \sigma_{\text{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:102: Undefined control sequence.
+l.102 ...pi_{\text{TicketID}} \left( \sigma_{\text
+                                                  {Method='Cash'}} (\text{Pa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:102: Undefined control sequence.
+l.102 ...eft( \sigma_{\text{Method='Cash'}} (\text
+                                                  {Payments}) \right)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[1
+
+{C:/Users/jefel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:120: Undefined control sequence.
+l.120 \noindent \textbf{Query:} $\pi_{\text
+                                           {FirstName, LastName}} \left( \si...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:120: Undefined control sequence.
+l.120 ...irstName, LastName}} \left( \sigma_{\text
+                                                  {Email like '\%gmail.com'}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:120: Undefined control sequence.
+l.120 ..._{\text{Email like '\%gmail.com'}} (\text
+                                                  {Attendees}) \right)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:140: Undefined control sequence.
+l.140 \noindent \textbf{Query:} $\pi_{\text
+                                           {FirstName, LastName, SSN}} \left...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:140: Undefined control sequence.
+l.140 ...ame, LastName, SSN}} \left( \sigma_{\text
+                                                  {VenueName='Limketkai Mall...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:140: Undefined control sequence.
+l.140 ...VenueName='Limketkai Mall'}} \left( \text
+                                                  {IndividualOrganizers} \bo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:140: Undefined control sequence.
+l.140 ...\text{IndividualOrganizers} \bowtie \text
+                                                  {Organizers} \bowtie \text...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:140: Undefined control sequence.
+l.140 ...} \bowtie \text{Organizers} \bowtie \text
+                                                  {Events} \bowtie \text{Ven...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:140: Undefined control sequence.
+l.140 ...zers} \bowtie \text{Events} \bowtie \text
+                                                  {Venues} \right) \right)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (92.55133pt too wide) in paragraph at lines 140--141
+\OT1/cmr/bx/n/10 Query: $\OML/cmm/m/it/10 ^^Y[] []$ 
+ []
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:157: Undefined control sequence.
+l.157 \noindent \textbf{Query:} $\pi_{\text
+                                           {PaymentDate, Amount}} \left( \si...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:157: Undefined control sequence.
+l.157 ...aymentDate, Amount}} \left( \sigma_{\text
+                                                  {Type='VIP'}} \left( \text...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:157: Undefined control sequence.
+l.157 ...( \sigma_{\text{Type='VIP'}} \left( \text
+                                                  {Payments} \bowtie \text{T...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:157: Undefined control sequence.
+l.157 ...P'}} \left( \text{Payments} \bowtie \text
+                                                  {Tickets} \right) \right)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:175: Undefined control sequence.
+l.175 \noindent \textbf{Query:} $\pi_{\text
+                                           {FirstName, LastName}} \left( \si...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:175: Undefined control sequence.
+l.175 ...irstName, LastName}} \left( \sigma_{\text
+                                                  {ExtraBenefits=True}} \lef...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:175: Undefined control sequence.
+l.175 ..._{\text{ExtraBenefits=True}} \left( \text
+                                                  {Attendees} \bowtie \text{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:175: Undefined control sequence.
+l.175 ...e}} \left( \text{Attendees} \bowtie \text
+                                                  {Tickets} \bowtie \text{Ti...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:175: Undefined control sequence.
+l.175 ...ees} \bowtie \text{Tickets} \bowtie \text
+                                                  {TicketExtraBenefits} \rig...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:193: Undefined control sequence.
+l.193 \noindent \textbf{Query:} $\left( \pi_{\text
+                                                  {FirstName, LastName}} \le...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:193: Undefined control sequence.
+l.193 ...irstName, LastName}} \left( \sigma_{\text
+                                                  {Type='R'}} \left( \text{A...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:193: Undefined control sequence.
+l.193 ...ft( \sigma_{\text{Type='R'}} \left( \text
+                                                  {Attendees} \bowtie \text{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:193: Undefined control sequence.
+l.193 ...'}} \left( \text{Attendees} \bowtie \text
+                                                  {Tickets} \right) \right) ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:193: Undefined control sequence.
+l.193 ...t) \right) \right) \cup \left( \pi_{\text
+                                                  {FirstName, LastName}} \le...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:193: Undefined control sequence.
+l.193 ...irstName, LastName}} \left( \sigma_{\text
+                                                  {Type='S'}} \left( \text{A...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:193: Undefined control sequence.
+l.193 ...ft( \sigma_{\text{Type='S'}} \left( \text
+                                                  {Attendees} \bowtie \text{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:193: Undefined control sequence.
+l.193 ...'}} \left( \text{Attendees} \bowtie \text
+                                                  {Tickets} \right) \right) ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (91.0954pt too wide) in paragraph at lines 193--194
+\OT1/cmr/bx/n/10 Query: $[] \OMS/cmsy/m/n/10 [ []$ 
+ []
+
+
+
+[2]
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:212: Undefined control sequence.
+l.212 \noindent \textbf{Query:} $\left( \pi_{\text
+                                                  {EventID}} \left( \sigma_{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:212: Undefined control sequence.
+l.212 ...\pi_{\text{EventID}} \left( \sigma_{\text
+                                                  {Type='VIP'}} (\text{Ticke...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:212: Undefined control sequence.
+l.212 ... \left( \sigma_{\text{Type='VIP'}} (\text
+                                                  {Tickets}) \right) \right)...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:212: Undefined control sequence.
+l.212 ...}) \right) \right) \cap \left( \pi_{\text
+                                                  {EventID}} \left( \sigma_{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:212: Undefined control sequence.
+l.212 ...\pi_{\text{EventID}} \left( \sigma_{\text
+                                                  {Type='R'}} (\text{Tickets...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:212: Undefined control sequence.
+l.212 ...}} \left( \sigma_{\text{Type='R'}} (\text
+                                                  {Tickets}) \right) \right)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 227.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 227.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 227.
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:229: Undefined control sequence.
+l.229 \noindent \textbf{Query:} $\pi_{\text
+                                           {Name}} (\text{Organizers} \bowti...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:229: Undefined control sequence.
+l.229 ...\textbf{Query:} $\pi_{\text{Name}} (\text
+                                                  {Organizers} \bowtie (\pi_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:229: Undefined control sequence.
+l.229 ...}} (\text{Organizers} \bowtie (\pi_{\text
+                                                  {OrganizerID}} (\text{Even...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:229: Undefined control sequence.
+l.229 ... \bowtie (\pi_{\text{OrganizerID}} (\text
+                                                  {Events}) \div \pi_{\text{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:229: Undefined control sequence.
+l.229 ...nizerID}} (\text{Events}) \div \pi_{\text
+                                                  {VenueID}} (\sigma_{\text{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:229: Undefined control sequence.
+l.229 ... \div \pi_{\text{VenueID}} (\sigma_{\text
+                                                  {VenueCapacity} \ge 4000} ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:229: Undefined control sequence.
+l.229 ...ma_{\text{VenueCapacity} \ge 4000} (\text
+                                                  {Venues}))))$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:246: Undefined control sequence.
+l.246 \noindent \textbf{Query:} $\pi_{\text
+                                           {VenueName}} \left( \sigma_{\text...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:246: Undefined control sequence.
+l.246 ...i_{\text{VenueName}} \left( \sigma_{\text
+                                                  {CountEventID} > 1} \left(...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:246: Undefined control sequence.
+l.246 ...t{CountEventID} > 1} \left( \gamma_{\text
+                                                  {VenueID}, \text{COUNT(Eve...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:246: Undefined control sequence.
+l.246 ...> 1} \left( \gamma_{\text{VenueID}, \text
+                                                  {COUNT(EventID)} \to \text...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:246: Undefined control sequence.
+l.246 ...VenueID}, \text{COUNT(EventID)} \to \text
+                                                  {CountEventID}} (\text{Eve...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:246: Undefined control sequence.
+l.246 ...EventID)} \to \text{CountEventID}} (\text
+                                                  {Events}) \right) \bowtie ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:246: Undefined control sequence.
+l.246 ...D}} (\text{Events}) \right) \bowtie \text
+                                                  {Venues} \right)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:263: Undefined control sequence.
+l.263 \noindent \textbf{Query:} $\pi_{\text
+                                           {Email}} \left( \sigma_{\text{Bas...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:263: Undefined control sequence.
+l.263 ... $\pi_{\text{Email}} \left( \sigma_{\text
+                                                  {BasePrice} \le 500} \left...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:263: Undefined control sequence.
+l.263 ...a_{\text{BasePrice} \le 500} \left( \text
+                                                  {Attendees} \bowtie \text{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:263: Undefined control sequence.
+l.263 ...00} \left( \text{Attendees} \bowtie \text
+                                                  {Tickets} \bowtie \text{Ti...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jefel/projects/fds/rel_alg/rel_alg.tex:263: Undefined control sequence.
+l.263 ...ees} \bowtie \text{Tickets} \bowtie \text
+                                                  {TicketTypePricing} \right...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[3] (rel_alg.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-11-02>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 2502 strings out of 473650
+ 45776 string characters out of 5717934
+ 449137 words of memory out of 5000000
+ 25653 multiletter control sequences out of 15000+600000
+ 562371 words of font info for 50 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,7n,65p,396b,215s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/jefel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jefel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jefel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jefel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jefel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/jefel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jefel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jefel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/jefel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jefel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/jefel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/jefel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on rel_alg.pdf (3 pages, 167767 bytes).
+PDF statistics:
+ 72 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

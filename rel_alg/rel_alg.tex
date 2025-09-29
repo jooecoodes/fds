@@ -8,7 +8,7 @@
 
 \begin{document}
 
-\section*{New Relational Algebra Query Results}
+\section*{Relational Algebra Query Results (Total 15)}
 
 \subsection*{Query 1: Full Names of Attendees who bought a "VIP" ticket for "Tech Summit"}
 
@@ -47,7 +47,25 @@ Limketkai Auditorium \\
 
 \subsection*{Query 3: Contact Info of Individual Organizers who hosted an event with a Base Price of 500}
 
-\noindent \textbf{Query:} $\pi_{\text{Email}} \left( \sigma_{\text{BasePrice=1000}} \left( \text{Attendees} \bowtie \text{Tickets} \bowtie \text{TicketBasePrices} \bowtie \text{Events} \bowtie \text{IndividualOrganizers} \right) \right)$
+\noindent \textbf{Query:} $\pi_{\text{ContactInfo}} \left( \sigma_{\text{BasePrice=500}} \left( \text{IndividualOrganizers} \bowtie \text{Organizers} \bowtie \text{Events} \bowtie \text{TicketTypePricing} \right) \right)$
+
+\captionof{table}{Result 3: Contact Info of Individual Organizers (Price 500)}
+\begin{center}
+\begin{tabular}{c}
+\toprule
+\textbf{ContactInfo} \\
+\midrule
+917423431 \\
+9814739849 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\hrule
+
+\subsection*{Query 4: Email of Attendees who bought a VIP Ticket for an Individual-Hosted Event}
+
+\noindent \textbf{Query:} $\pi_{\text{Email}} \left( \sigma_{\text{BasePrice=1000}} \left( \text{Attendees} \bowtie \text{Tickets} \bowtie \text{TicketTypePricing} \bowtie \text{Events} \bowtie \text{IndividualOrganizers} \right) \right)$
 
 \captionof{table}{Result 4: Attendees' Email (VIP Ticket, Individual Host)}
 \begin{center}
@@ -56,6 +74,203 @@ Limketkai Auditorium \\
 \textbf{Email} \\
 \midrule
 jose@gmail.com \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\hrule
+
+\subsection*{Query 5: Names of Venues with Capacity greater than 4000}
+
+\noindent \textbf{Query:} $\pi_{\text{VenueName}} \left( \sigma_{\text{VenueCapacity} > 4000} (\text{Venues}) \right)$
+
+\captionof{table}{Result 5: Venues with Capacity > 4000}
+\begin{center}
+\begin{tabular}{c}
+\toprule
+\textbf{VenueName} \\
+\midrule
+Limketkai Auditorium \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\hrule
+
+\subsection*{Query 6: Ticket IDs paid for with "Cash"}
+
+\noindent \textbf{Query:} $\pi_{\text{TicketID}} \left( \sigma_{\text{Method='Cash'}} (\text{Payments}) \right)$
+
+\captionof{table}{Result 6: Tickets Paid with Cash}
+\begin{center}
+\begin{tabular}{c}
+\toprule
+\textbf{TicketID} \\
+\midrule
+3 \\
+4 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\hrule
+
+\subsection*{Query 7: First and Last Names of Attendees whose email ends with 'gmail.com'}
+
+\noindent \textbf{Query:} $\pi_{\text{FirstName, LastName}} \left( \sigma_{\text{Email like '\%gmail.com'}} (\text{Attendees}) \right)$
+
+\captionof{table}{Result 7: Attendees with @gmail.com}
+\begin{center}
+\begin{tabular}{cc}
+\toprule
+\textbf{FirstName} & \textbf{LastName} \\
+\midrule
+Jose & Ramirez \\
+Rose & Ramirez \\
+Levi & Lanyen \\
+Gina & Lloyd \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\hrule
+
+\subsection*{Query 8: Names and SSNs of Individual Organizers who hosted an event at the "Limketkai Mall"}
+
+\noindent \textbf{Query:} $\pi_{\text{FirstName, LastName, SSN}} \left( \sigma_{\text{VenueName='Limketkai Mall'}} \left( \text{IndividualOrganizers} \bowtie \text{Organizers} \bowtie \text{Events} \bowtie \text{Venues} \right) \right)$
+
+\captionof{table}{Result 8: Individual Organizers at Limketkai Mall}
+\begin{center}
+\begin{tabular}{ccc}
+\toprule
+\textbf{FirstName} & \textbf{LastName} & \textbf{SSN} \\
+\midrule
+Kassandra & Liza & 738-19-4592 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\hrule
+
+\subsection*{Query 9: Date and Amount of payments made for "VIP" tickets}
+
+\noindent \textbf{Query:} $\pi_{\text{PaymentDate, Amount}} \left( \sigma_{\text{Type='VIP'}} \left( \text{Payments} \bowtie \text{Tickets} \right) \right)$
+
+\captionof{table}{Result 9: VIP Ticket Payment Details}
+\begin{center}
+\begin{tabular}{cc}
+\toprule
+\textbf{PaymentDate} & \textbf{Amount} \\
+\midrule
+2025-09-30 & 1000 \\
+2025-10-05 & 1000 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\hrule
+
+\subsection*{Query 10: Names of Attendees who purchased a ticket with Extra Benefits}
+
+\noindent \textbf{Query:} $\pi_{\text{FirstName, LastName}} \left( \sigma_{\text{ExtraBenefits=True}} \left( \text{Attendees} \bowtie \text{Tickets} \bowtie \text{TicketExtraBenefits} \right) \right)$
+
+\captionof{table}{Result 10: Attendees with Extra Benefits}
+\begin{center}
+\begin{tabular}{cc}
+\toprule
+\textbf{FirstName} & \textbf{LastName} \\
+\midrule
+Jose & Ramirez \\
+Gina & Lloyd \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\hrule
+
+\subsection*{Query 11: Attendees who purchased an 'R' ticket OR an 'S' ticket (Union)}
+
+\noindent \textbf{Query:} $\left( \pi_{\text{FirstName, LastName}} \left( \sigma_{\text{Type='R'}} \left( \text{Attendees} \bowtie \text{Tickets} \right) \right) \right) \cup \left( \pi_{\text{FirstName, LastName}} \left( \sigma_{\text{Type='S'}} \left( \text{Attendees} \bowtie \text{Tickets} \right) \right) \right)$
+
+\captionof{table}{Result 11: Attendees with 'R' or 'S' Tickets}
+\begin{center}
+\begin{tabular}{cc}
+\toprule
+\textbf{FirstName} & \textbf{LastName} \\
+\midrule
+Maria & Santos \\
+Rose & Ramirez \\
+Levi & Lanyen \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\hrule
+
+\subsection*{Query 12: Event IDs for which both a VIP ticket AND a Regular ('R') ticket were sold (Intersection)}
+
+\noindent \textbf{Query:} $\left( \pi_{\text{EventID}} \left( \sigma_{\text{Type='VIP'}} (\text{Tickets}) \right) \right) \cap \left( \pi_{\text{EventID}} \left( \sigma_{\text{Type='R'}} (\text{Tickets}) \right) \right)$
+
+\captionof{table}{Result 12: Event IDs with Both VIP and R Tickets}
+\begin{center}
+\begin{tabular}{c}
+\toprule
+\textbf{EventID} \\
+\midrule
+1 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\hrule
+
+\subsection*{Query 13: Names of Organizers who hosted events at ALL Venues with capacity $\ge 4000$ (Division)}
+
+\noindent \textbf{Query:} $\pi_{\text{Name}} (\text{Organizers} \bowtie (\pi_{\text{OrganizerID}} (\text{Events}) \div \pi_{\text{VenueID}} (\sigma_{\text{VenueCapacity} \ge 4000} (\text{Venues}))))$
+
+\captionof{table}{Result 13: Organizers Hosting at ALL Large Venues}
+\begin{center}
+\begin{tabular}{c}
+\toprule
+\textbf{Name} \\
+\midrule
+\multicolumn{1}{c}{\emph{No matching rows}} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\hrule
+
+\subsection*{Query 14: Names of Venues that hosted MORE THAN ONE event (Group By/Aggregation)}
+
+\noindent \textbf{Query:} $\pi_{\text{VenueName}} \left( \sigma_{\text{CountEventID} > 1} \left( \gamma_{\text{VenueID}, \text{COUNT(EventID)} \to \text{CountEventID}} (\text{Events}) \right) \bowtie \text{Venues} \right)$
+
+\captionof{table}{Result 14: Venues Hosting More Than One Event}
+\begin{center}
+\begin{tabular}{c}
+\toprule
+\textbf{VenueName} \\
+\midrule
+\multicolumn{1}{c}{\emph{No matching rows}} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\hrule
+
+\subsection*{Query 15: Emails of Attendees who purchased a ticket type whose BasePrice is 500 or less}
+
+\noindent \textbf{Query:} $\pi_{\text{Email}} \left( \sigma_{\text{BasePrice} \le 500} \left( \text{Attendees} \bowtie \text{Tickets} \bowtie \text{TicketTypePricing} \right) \right)$
+
+\captionof{table}{Result 15: Attendees with Tickets $\le 500$}
+\begin{center}
+\begin{tabular}{c}
+\toprule
+\textbf{Email} \\
+\midrule
+maria@email.com \\
+rose@gmail.com \\
+levi@gmail.com \\
 \bottomrule
 \end{tabular}
 \end{center}
