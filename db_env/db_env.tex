@@ -1,0 +1,106 @@
+\documentclass[12pt]{article}
+\usepackage{enumitem}
+
+\begin{document}
+
+\section*{Data, Information, and Metadata in the Event Management Scenario (3NF Schema)}
+
+We can define these concepts by looking directly at the rows and columns in the final, normalized tables.
+
+\subsection*{A. Data (Raw Facts)}
+Data consists of the raw, unorganized facts that are stored in the database. In our scenario, data are the specific values in the cells of the tables.
+
+\textbf{Examples of Data:}
+\begin{itemize}[noitemsep]
+    \item The raw number 1000 in the BasePrice column.
+    \item The string CDO in the VenueCity column.
+    \item The ID 3 in the Organizer\_ID column.
+\end{itemize}
+
+\subsection*{B. Information (Processed Data)}
+Information is data that has been processed, organized, and presented in a meaningful context. It allows users to make decisions.
+
+\textbf{Examples of Information:}
+\begin{itemize}[noitemsep]
+    \item ``The organizer Kassandra Liza (Organizer ID 3) is hosting the Music Fest (Event ID 2) at the Limketkai Mall (Venue ID 3).'' (This is processed by joining three tables).
+    \item ``Jose Ramirez paid 1000 on 2025-09-30 using GCash for his VIP ticket.''
+\end{itemize}
+
+\subsection*{C. Metadata (Data about Data)}
+Metadata describes the structure, characteristics, and constraints of the data. It is the ``schema'' or blueprint of the database.
+
+\textbf{Examples of Metadata (from our 3NF design):}
+\begin{itemize}[noitemsep]
+    \item The Event\_ID column is the Primary Key (PK) for the Events table.
+    \item The Venue\_ID column must contain a value that exists in the Venues table (Foreign Key constraint).
+    \item The BasePrice column has a data type of currency/numeric.
+\end{itemize}
+
+\section*{Basic Database Environment Components}
+
+The database environment is the entire system that supports and manages the database. Here are the core components for our Event Management system:
+
+\subsection*{A. Database Management System (DBMS)}
+The DBMS is the software (like MySQL, SQL Server, or PostgreSQL) that manages the database structure and controls access to the data.
+
+\textbf{Role in Scenario:} The DBMS enforces the 3NF rules (like ensuring Ticket\_ID is unique), handles complex relational algebra queries (like the 15 we created), and manages user security.
+
+\subsection*{B. Database (The Data Repository)}
+This is the collection of all the organized data and the schema (metadata).
+
+\textbf{Role in Scenario:} This is the actual physical repository holding all the tables (Events, Attendees, Tickets, etc.) and all the rows of data.
+
+\subsection*{C. Users/End-Users}
+These are the people who interact with the database to retrieve, input, or update data. They are typically divided by their role.
+
+\textbf{Types in Scenario:}
+\begin{itemize}[noitemsep]
+    \item \textbf{Event Organizer Staff:} Uses an application interface to add new events, check ticket sales, and view attendee lists.
+    \item \textbf{Website/App Users (Attendees):} Interact with the database indirectly by buying tickets, registering, and making payments.
+    \item \textbf{Finance/Accounting Staff:} Queries the Payments table to reconcile cash and GCash transactions.
+\end{itemize}
+
+\subsection*{D. Application Programs}
+These are the software tools used to access and manipulate the data stored in the database.
+
+\textbf{Examples in Scenario:}
+\begin{itemize}[noitemsep]
+    \item A Web Booking Form that allows attendees to create a new Attendee record and insert a new Ticket record.
+    \item An Organizer Dashboard that runs queries like ``Find payments for all my events.''
+\end{itemize}
+
+\subsection*{E. Database Administrators (DBA)}
+The DBA is the person or team responsible for the management, security, and maintenance of the entire database system.
+
+\textbf{Role in Scenario:}
+\begin{itemize}[noitemsep]
+    \item Setting up user accounts and permissions.
+    \item Ensuring data backups are run regularly.
+    \item Tuning the database to make complex queries (like the relational algebra queries) run faster.
+\end{itemize}
+
+\subsection*{F. Hardware}
+Hardware consists of the physical devices that the database environment runs on, stores data on, and communicates through.
+
+\textbf{Server (The Core):} This is the powerful computer that runs the DBMS and stores the actual data files (the database).
+
+\textbf{Role in Scenario:} The server processes all the heavy SQL/relational algebra queries (like finding all attendees who bought a VIP ticket) and provides secure access to the Event Management application.
+
+\textbf{Storage (The Memory):} High-speed hard drives (SSDs/HDDs) used to physically hold all the tables, indexes, and payment records.
+
+\textbf{Networking:} The infrastructure (routers, cables, network cards) that connects the server to the organizers' offices and the attendees accessing the website from the internet.
+
+\subsection*{G. Software}
+Software encompasses all the programs and routines used to operate the system, including the DBMS itself, the operating system, and application programs.
+
+\textbf{Operating System (OS):} The fundamental software (like Windows Server, Linux, or macOS) that manages the server's resources.
+
+\textbf{Role in Scenario:} The OS manages memory, file storage, and processes, allowing the DBMS to run efficiently.
+
+\textbf{Database Management System (DBMS):} (As defined before) The main software (e.g., MySQL) that interprets the commands and manages the data integrity (like enforcing the foreign key link between an Event and its Venue).
+
+\textbf{Application Software:} The custom programs (e.g., the website or internal dashboard) that facilitate specific user tasks.
+
+\textbf{Role in Scenario:} The ticket purchase application uses the database to insert new Ticket rows and retrieve the correct BasePrice from the TicketTypePricing table.
+
+\end{document}
